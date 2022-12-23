@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(11, 1, 34);
+}
+
+.logo {
+  font-size: large;
+}
+
+.sub2 {
+    font-size: x-large;
+    margin-bottom: 15px;
+    margin-top: 60px;
+} 
+
+div {
+    margin-left: 30;
+    margin-right: 30px;
+    color: white;
+}
+
+.main1 {
+    margin: 15px;
+    display: grid;
+    
+}
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px;
+    border-color: beige;
+    
+  }
+
+li a{
+    float: right;
+    display: block;
+    padding-right: 25px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(234, 71, 90);
+    padding-left: 25px;
+  }
+
+  .main3, .main2, .main1, .main4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+
+.main2 {
+    width: 60%;
+    margin-top: 60px;
+    }
+
+  .sub3 {
+    display: flex;
+    flex-direction: row;
+  }
+
+   div h4 {
+    width: 45%;
+    margin-bottom: 15px;
+  }
+
+  img {
+     width: 40px;
+  }
+
+.sub4 {
+  color: rgb(234, 71, 90);
+  font-size: x-large;
+  margin-bottom: 15px;
+  margin-top: 60px;
+}
+  
+.subh {
+  color: rgb(234, 71, 90);
+  font-size: x-large;
+  margin-bottom: 15px;
+  margin-top: 60px;
+}
+
+  h5 {
+    color: rgb(234, 71, 90);
+  }
+
+  .main4 {
+    margin-top: 30px;
+  }
+
+  button {
+    background-color: rgb(234, 71, 90);
+    color: white;
+    padding: 6px 7px; 
+    border: none;
+    font-size: 15px;
+  }
+
+  button:hover {
+    background-color: rgb(49, 36, 69);
+  }
+
+
+  li a:hover {
+    background-color: rgb(11, 1, 34);
+  }
+
+  .main4 input[type = text] {
+    background-color: rgb(49, 36, 69);
+    margin-top: 15px;
+    padding-right: 100px;
+    font-size: 17px;
+    text-align: left;
+    color: white;
+  }
+
+.main4 input[type = email] {
+  background-color: rgb(49, 36, 69);
+  margin-top: 8px;
+  padding-right: 100px;
+  font-size: 17px;
+  text-align: left;
+  color: white;
+}
+
+.main4 input[type = submit] {
+  background-color: rgb(234, 71, 90);
+  padding-top: 4px;
+  padding-bottom: 3px;
+  margin-top: 10px;
+  font-size: 17px;
+  text-align: left;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.main4 input[type = submit]:hover {
+  background-color: rgb(49, 36, 69);
+}
